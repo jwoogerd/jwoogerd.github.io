@@ -1,0 +1,47 @@
+
+#background{
+    background-image: url("../img/background.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.4;
+    height: 590px;
+    width: 100%;
+    margin: -2em;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#home {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 60%;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+}
+
+#links {
+    margin-top: -0.5em;
+    font-size: 2.2em;
+}
+
+.separator {
+    font-size: 140%;
+}
+
+#bio a:hover, #resume a:hover {
+    border-bottom: 3px solid black;
+}
+
+#links a:link {
+    color: #2a4480;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+a:link {
+    text-decoration: none;
+}
