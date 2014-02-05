@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    opacity: 0.4;
+    opacity: 0.25;
     height: 590px;
     width: 100%;
     margin: -2em;
@@ -12,6 +12,12 @@
     padding-left: 40px;
 }
 
+/* Jayme Woogerd
+ * Comp 20
+ * February 4, 2013
+ */
+
+/* index page styles */
 #home {
     position: absolute;
     top: 20%;
@@ -26,17 +32,93 @@
     font-size: 2.2em;
 }
 
+
+#links a:link, #links a:visited {
+    color: #2a4480;
+}
+
+#bio a:hover, #resume a:hover {
+    color: #a62000;
+}
+
 .separator {
     font-size: 140%;
 }
 
-#bio a:hover, #resume a:hover {
-    border-bottom: 3px solid black;
+/* resume page styles */
+
+#content {
+    font-size: 1.3em;
+    font-family: 'EB Garamond', serif;
+    margin: 0 auto;
+    width: 75%;
 }
 
-#links a:link {
-    color: #2a4480;
+#header {
+    font-family: 'EB Garamond', serif;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: solid black;
+    padding-bottom: 0px;
 }
+
+#content p {
+    margin: 0px;
+}
+
+.smallskip {
+    padding-top:0.3em;
+}
+
+.section {
+    margin-top: 0px;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    border-bottom: solid black;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.item {
+    margin-bottom: 1em;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.date {
+    float: right;
+}
+
+#languages {
+    width: 40%;
+    float: left;
+    font-size: 105%;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#skills {
+    margin-left: 0px;
+}
+
+/* bio page styles */
+
+#bio_page {
+    font-size: 1.8em;
+    font-family: 'EB Garamond', serif;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+/* font styles */
 
 h1 {
     font-size: 4em;
