@@ -52,6 +52,7 @@
     font-family: 'EB Garamond', serif;
     margin: 0 auto;
     width: 75%;
+    max-width: 900px;
 }
 
 #header {
@@ -114,6 +115,7 @@
     font-size: 1.8em;
     font-family: 'EB Garamond', serif;
     margin: 0 auto;
+    max-width: 900px;
     width: 75%;
 }
 
