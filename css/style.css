@@ -1,3 +1,6 @@
+/* 
+ * index page styles 
+ */
 
 html, body {
     height: 100%;
@@ -16,12 +19,6 @@ html, body {
     padding-left: 40px;
 }
 
-/* Jayme Woogerd
- * Comp 20
- * February 4, 2013
- */
-
-/* index page styles */
 #home {
     position: absolute;
     top: 30%;
@@ -49,7 +46,9 @@ html, body {
     font-size: 140%;
 }
 
-/* resume page styles */
+/* 
+ * resume page styles 
+ */
 
 #content {
     font-size: 1.3em;
@@ -113,7 +112,9 @@ html, body {
     margin-left: 0px;
 }
 
-/* bio page styles */
+/* 
+ * bio page styles 
+ */
 
 #bio_page {
     font-size: 1.8em;
@@ -123,8 +124,9 @@ html, body {
     width: 75%;
 }
 
-
-/* font styles */
+/* 
+ * font styles 
+ */
 
 h1 {
     font-size: 4em;
