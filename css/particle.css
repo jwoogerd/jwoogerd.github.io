@@ -16,6 +16,14 @@ html, body {
     width: 75%;
 }
 
+.section {
+    border-bottom: solid gray 1px;
+}
+
+.video {
+   text-align: center; 
+}
+
 /* 
  * font styles 
  */
