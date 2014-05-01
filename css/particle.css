@@ -17,6 +17,7 @@ html, body {
 }
 
 .section {
+    margin-top: 3em;
     border-bottom: solid gray 1px;
 }
 
