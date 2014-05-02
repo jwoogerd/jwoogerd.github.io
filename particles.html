@@ -10,23 +10,23 @@
     </head>
     <body>
         <div class="particle">
-            <h2>Magical Particle Systems</h2>
+            <div class="section"><h2>Magical Particle Systems</h2> </div>
+
             <h3>By Louis Rassaby and Jayme Woogerd</h3>
             <h3>Computer Graphics (Comp 175)</h3>
-            <h3>Tufts University</h3>
-            <h3>Spring 2014</h3>
-            <div>
-            <p>We implemented a configurable particle system using OpenGL vertex buffer objects,
+            <h3>Tufts University, Spring 2014</h3>
+            <div id="top">
+            <p>We implemented a configurable particle system using OpenGL buffer objects,
                 instancing, and GLSL shaders. </p>
             </div>
             <div class="section">
-            <p>We started by using fixed-pipeline OpenGL, rendering each particle as a point. </p>
+            <p>We started by using fixed-pipeline OpenGL, rendering each particle as a point.
+                Most of the parameters are configurable, including the number of 
+                particles generated, the randomness spread, camera direction, 
+                and location of particle generation, and the physical forces.</p>
 
                 <p class="video"> <iframe width="640" height="480" src="//www.youtube.com/embed/d2dnotW9SSY?vq=hd1080" frameborder="0" allowfullscreen></iframe> </p>
 
-                <p> Most of the parameters are configurable, including the number of 
-                particles generated, the randomness spread, camera direction, 
-                and location of particle generation, and the physical forces.</p>
             </div>
 
             <div class="section">
@@ -43,7 +43,7 @@
             <p>
                 Attributes that are unique to a given particle (such as size, 
                 color, position and age) are stored and sent to the GPU via 
-                vertex buffer objects.
+                buffer objects.
             </p>
             <p class="video"><iframe width="640" height="480" src="//www.youtube.com/embed/RpUe9H8xyJo?vq=hd1080" frameborder="0" allowfullscreen></iframe></p>
             </div>
@@ -53,6 +53,8 @@
                 texture maps and animations.
             </p>
             <p class="video"><iframe width="640" height="480" src="//www.youtube.com/embed/1RiWas8iHeU?vq=hd1080" frameborder="0" allowfullscreen></iframe></p>
+        </div>
+
 
         </div>
     </body>
