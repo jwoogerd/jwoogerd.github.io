@@ -7,6 +7,7 @@
  */
 
 body {
+
   background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
@@ -144,6 +145,12 @@ a:after {
 		#section-topbar ul#nav .active a:hover {
 			background: #44bbaa;
 		}
+
+#section-topbar .top {
+    font-family: "Lato";
+    font-size: 25px;
+}
+
 #section-topbar i {
 	font-size: 25px;
 }
@@ -186,18 +193,18 @@ a:after {
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
+    background: #f2f2f2;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 } 
 
 #intro h5, p {
-	color: white;
+	color: black;
 }
 
 #intro i {
-	color: white;
+	color: black;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
@@ -212,7 +219,7 @@ a:after {
 }
 
 #skillswrap h5, p {
-	color: white;
+	color: black;
 }
 
 #footwrap {
