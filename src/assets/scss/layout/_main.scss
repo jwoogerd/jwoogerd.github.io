@@ -1,0 +1,41 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Main */
+
+	#main {
+		@include vendor('flex-grow', '1');
+		@include vendor('flex-shrink', '1');
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'center');
+		@include vendor('flex-direction', 'column');
+		margin-top: 35px;
+		position: relative;
+		max-width: 100%;
+		z-index: 3;
+
+		@include breakpoint(small) {
+			article {
+				@include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
+				.close {
+					&:before {
+						top: 0.875rem;
+						left: 0.875rem;
+						width: 2.25rem;
+						height: 2.25rem;
+						background-size: 14px 14px;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			article {
+				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
+			}
+		}
+	}
