@@ -1,6 +1,8 @@
 import { random } from 'lodash';
 import React from 'react'
 
+import resume from '../assets/jayme_woogerd_resume.pdf';
+
 const taglines = [
   'Washed up athlete',
   'Bit Enthusiast',
@@ -58,7 +60,7 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="./jayme_woogerd_resume.pdf" rel="noopener noreferrer" target="_blank" className="icon fa-file-pdf-o">
+                <a href={resume} rel="noopener noreferrer" target="_blank" className="icon fa-file-pdf-o">
                   <span className="label">Resume</span>
                 </a>
               </li>
