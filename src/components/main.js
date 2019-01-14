@@ -13,7 +13,7 @@ class Main extends React.Component {
         </p>
         <p>
           Raised in Seattle and educated in Maine, I live in Boston and work in San Francisco -
-          when I'm not on a plane, you can find me <a href="https://www.strava.com/athletes/13201496"
+          when I'm not on a transcontinental flight, you can find me <a href="https://www.strava.com/athletes/13201496"
           rel="noopener noreferrer" target="_blank">running around</a> in the terrible
           New England weather, reading about personal finance, or plotting my next travel adventure. 🦞
         </p>
