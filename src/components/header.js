@@ -60,7 +60,7 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
-                <a href={resume} rel="noopener noreferrer" target="_blank" className="icon fa-file-pdf-o">
+                <a href={resume} rel="noopener noreferrer" type="application/pdf" target="_blank" className="icon fa-file-pdf-o">
                   <span className="label">Resume</span>
                 </a>
               </li>
