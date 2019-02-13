@@ -70,7 +70,7 @@
 			border-color: _palette(border);
 			border-top-width: _size(border-width);
 			border-bottom-width: _size(border-width);
-			min-width: 530px;
+			min-width: 700px;
 			max-width: 100%;
 
 			.inner {
@@ -160,6 +160,10 @@
 
 		@include breakpoint(medium) {
 			.content {
+        .inner {
+          min-width: 530px;
+        }
+
 				p {
 					br {
 						display: none;

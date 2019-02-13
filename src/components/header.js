@@ -1,4 +1,3 @@
-import { random } from 'lodash';
 import React from 'react'
 
 import resume from '../assets/jayme_woogerd_resume.pdf';
@@ -6,11 +5,9 @@ import resume from '../assets/jayme_woogerd_resume.pdf';
 const taglines = [
   'Washed up athlete',
   'Bit Enthusiast',
-  'State Machinist',
   'Minimalist',
   'Tiny house lover',
   'bobby orr fan',
-  'Unsung Hero',
   'Retired dog jogger',  //https://www.youtube.com/watch?v=KwuHuMkJGRQ&feature=youtu.be
 ];
 
@@ -18,19 +15,21 @@ class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      tagline: 'Washed up athlete',
+      index: 0,
+      tagline: taglines[0],
       change: false,
     }
   }
 
   changeTagline = () => {
-    const index = random(0, taglines.length - 1);
-    if (this.state.tagline !== taglines[index]) {
-      setTimeout(() => this.setState({ change: false, tagline: taglines[index] }), 300);
-      return this.setState({ change: true });
-    }
-    this.changeTagline();
+    const index = (this.state.index + 1) % taglines.length;
+    setTimeout(() => this.setState({ change: false, tagline: taglines[index], index }), 300);
+    return this.setState({ change: true });
   };
+
+  componentDidMount() {
+    setInterval(() => this.changeTagline(), 6000);
+  }
 
   render() {
     const classes = this.state.change ? 'tagline change' : 'tagline';
@@ -41,7 +40,6 @@ class Header extends React.Component {
             <h1>Jayme Woogerd</h1>
             <h3>
               <span className={classes}>Software Engineer | {`${this.state.tagline}`}</span>
-              <span onClick={this.changeTagline} className="refresh icon fa-refresh"></span>
             </h3>
             <ul className="icons">
               <li>
